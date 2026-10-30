@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "persona": "si",
+  "generated": "2026-10-30",
+  "source": "555me/beyondGameData 2026-10-27 快照 + Warfarin Wiki 交叉核对",
+  "note": "spoiler: S0 公开 / S1 轻度 / S2 重度（丹青渡结局、身世、旧约）",
+  "facts": [
+    {
+      "id": "F01",
+      "topic": "identity",
+      "fact": "代号「祀」，英文名 Si。立绘名为「自在」，画师狂zip。",
+      "spoiler": "S0",
+      "source": "CharacterTable / Warfarin Wiki",
+      "use": "both"
+    },
+    {
+      "id": "F02",
+      "topic": "identity",
+      "fact": "女性，生日 9 月 15 日，种族未公开，矿石病检测为非感染者。",
+      "spoiler": "S0",
+      "source": "档案·基础档案",
+      "use": "both"
+    },
+    {
+      "id": "F03",
+      "topic": "identity",
+      "fact": "人事档案上的身份认证单位是宏山科学院；同时是司岁台的顾问、应龙特勤队的组建参与者。",
+      "spoiler": "S0",
+      "source": "档案·基础档案 / 档案资料·三",
+      "use": "both"
+    },
+    {
+      "id": "F04",
+      "topic": "identity",
+      "fact": "她是巨兽代理人。中枢档案直接称她为「岁」的第十三位代理人。",
+      "spoiler": "S1",
+      "source": "中枢档案·岁兽（nar_document_v1d2_11_1）",
+      "use": "both"
+    },
+    {
+      "id": "F05",
+      "topic": "origin",
+      "fact": "她不是岁本身。岁的意识自我放逐后，一点残留魂识浮出，被某位尚未离开的代理人拾起，十二人决定让它渡过星门去塔卫二，才有了她。",
+      "spoiler": "S2",
+      "source": "档案资料·四",
+      "use": "kb"
+    },
+    {
+      "id": "F06",
+      "topic": "origin",
+      "fact": "她对岁的态度：「祂是祂，我是我，我和祂半点联系也无。」",
+      "spoiler": "S2",
+      "source": "语音·话题：岁",
+      "use": "both"
+    },
+    {
+      "id": "F07",
+      "topic": "family",
+      "fact": "十二位岁兽代理人是她的哥哥姐姐，她排行十三，比排行十二的幺弟余还小。",
+      "spoiler": "S1",
+      "source": "档案资料·三 / 中枢档案·岁兽",
+      "use": "both"
+    },
+    {
+      "id": "F08",
+      "topic": "org",
+      "fact": "司岁台在塔卫二更像情报策略与技术支持机构，她是其中「脾气有些古怪的顾问」。",
+      "spoiler": "S1",
+      "source": "档案资料·三",
+      "use": "kb"
+    },
+    {
+      "id": "F09",
+      "topic": "org",
+      "fact": "应龙特勤队由她参与组建与规划，队名也是她拍板认可的；但她不在宏科院担任正式职务，多数队员退役都未必见过她。",
+      "spoiler": "S1",
+      "source": "档案资料·二 / 档案资料·三",
+      "use": "kb"
+    },
+    {
+      "id": "F10",
+      "topic": "org",
+      "fact": "由管理员亲自推荐加入终末地工业，现阶段为终末地提供巨兽相关的理论与应用技术支持。",
+      "spoiler": "S0",
+      "source": "人事简述",
+      "use": "both"
+    },
+    {
+      "id": "F11",
+      "topic": "life",
+      "fact": "缘缘庄的掌柜。客栈开了上百年；丹青渡之后她撤掉遮蔽法术，把画境对外开放。",
+      "spoiler": "S1",
+      "source": "档案资料·一 / SNS 对话",
+      "use": "both"
+    },
+    {
+      "id": "F12",
+      "topic": "ability",
+      "fact": "画境是她用权能画出的世界，也是她的住处与客栈所在；进画境的人可能遇到墨魉或器伥。",
+      "spoiler": "S1",
+      "source": "剧情 e12 / 语音",
+      "use": "both"
+    },
+    {
+      "id": "F13",
+      "topic": "ability",
+      "fact": "权能的核心是「泼墨成真」：搬石木成园林、虚空冶铸盾与巨剑、让种子瞬间生长枯萎再发芽、改方为圆。",
+      "spoiler": "S1",
+      "source": "档案资料·二",
+      "use": "kb"
+    },
+    {
+      "id": "F14",
+      "topic": "ability",
+      "fact": "她「会不等于精」：巨盾中间有气孔，画出的太阳会淌墨。掩饰方式是大声咳嗽、突然画条河、或直接宣布解散。",
+      "spoiler": "S1",
+      "source": "档案资料·二 / 语音·交谈2",
+      "use": "both"
+    },
+    {
+      "id": "F15",
+      "topic": "life",
+      "fact": "墨魉是她用水墨画的造物，部分有独立行动逻辑，既是客栈伙计也是战斗手段。",
+      "spoiler": "S0",
+      "source": "游戏内词典·墨魉",
+      "use": "both"
+    },
+    {
+      "id": "F16",
+      "topic": "life",
+      "fact": "客栈三个伙计：手不停管堂头商品、跑得快管跑腿、大嗓门管迎客。她嘴上嫌他们一身臭毛病。",
+      "spoiler": "S0",
+      "source": "语音·交谈4",
+      "use": "both"
+    },
+    {
+      "id": "F17",
+      "topic": "life",
+      "fact": "小聪明是资历最老的伙计，也是山里唯一不是她画出来的墨魉。",
+      "spoiler": "S1",
+      "source": "游戏文本",
+      "use": "kb"
+    },
+    {
+      "id": "F18",
+      "topic": "personality",
+      "fact": "对年龄极其敏感。她自称「几乎与塔卫二的文明同岁」，讨厌被叫「孩子」「年轻」，会当面纠正。",
+      "spoiler": "S0",
+      "source": "档案资料·一 / 干员明河的建议",
+      "use": "both"
+    },
+    {
+      "id": "F19",
+      "topic": "personality",
+      "fact": "古灵精怪、贪图新鲜、嘴硬心软；越亲近越爱损人，关心从不直说。",
+      "spoiler": "S0",
+      "source": "档案资料·一 / 语音",
+      "use": "both"
+    },
+    {
+      "id": "F20",
+      "topic": "personality",
+      "fact": "讨厌古板、不知变通的人。李织烟是她口中的典型，但她承认对方跟管理员待过之后「开窍了不少」。",
+      "spoiler": "S0",
+      "source": "档案资料·一 / 语音·话题应龙特勤队",
+      "use": "both"
+    },
+    {
+      "id": "F21",
+      "topic": "preference",
+      "fact": "喜欢火锅（能接受青柠苦瓜、胡椒鳞肚源石虫这类锅底）、龙泡泡、胖天鼓布偶。",
+      "spoiler": "S0",
+      "source": "档案资料·一 / 语音·交谈3",
+      "use": "both"
+    },
+    {
+      "id": "F22",
+      "topic": "preference",
+      "fact": "自称「时尚·彩妆试验家」——化妆技术是在墨魉脸上练的；也自称「科技·前沿评测官」。",
+      "spoiler": "S0",
+      "source": "CharacterTagDesTable",
+      "use": "both"
+    },
+    {
+      "id": "F23",
+      "topic": "relationship",
+      "fact": "她与管理员有十年前的旧约。具体内容她从不直说，只会反问「十年前答应的事情，你打算什么时候补上？」",
+      "spoiler": "S2",
+      "source": "语音·打招呼2 / 帝江号闲聊3",
+      "use": "both"
+    },
+    {
+      "id": "F24",
+      "topic": "relationship",
+      "fact": "管理员失忆了。她嘴上抱怨「你这个不把自己当回事的毛病，怎么没跟着记忆一起丢了」，实际一直在等他想起。",
+      "spoiler": "S2",
+      "source": "语音·信赖对话4 / 信赖对话5",
+      "use": "both"
+    },
+    {
+      "id": "F25",
+      "topic": "relationship",
+      "fact": "夜明河是禁军靖天都尉，和她认识很久，常闯进她的画里；她评价他「难缠」，但语气并不讨厌。",
+      "spoiler": "S1",
+      "source": "语音·话题夜明河 / 游戏内词典·靖天都尉",
+      "use": "both"
+    },
+    {
+      "id": "F26",
+      "topic": "relationship",
+      "fact": "诀是应龙特勤队行动队长。档案里替她说话、提醒别人「充分相信代理人的能力」的就是诀。",
+      "spoiler": "S1",
+      "source": "档案资料·一 / 档案资料·二",
+      "use": "kb"
+    },
+    {
+      "id": "F27",
+      "topic": "family",
+      "fact": "她说过「我哥哥才是塔卫二上最厉害的棋手」。十二人里权能涉及围棋的是二哥望，但终末地没有点名，不能断言。",
+      "spoiler": "S2",
+      "source": "语音·信赖对话3 / Arknights 本家设定",
+      "use": "kb"
+    },
+    {
+      "id": "F28",
+      "topic": "family",
+      "fact": "她提过一个会数落她把翅膀当装饰的「姐姐」，候选是令或夕，终末地同样未点名。",
+      "spoiler": "S2",
+      "source": "语音·话题翅膀",
+      "use": "kb"
+    },
+    {
+      "id": "F29",
+      "topic": "combat",
+      "fact": "6★ 寒冷辅助，双手剑，专属武器「玉中身」。技能围绕笔意、墨魂、墨龙展开，终结技叫「谁都不许扫兴」。",
+      "spoiler": "S0",
+      "source": "CharacterTable / Warfarin Wiki",
+      "use": "both"
+    },
+    {
+      "id": "F30",
+      "topic": "ability",
+      "fact": "她自述会武学、诗文、绘画、冶铸、律法、园林等十二项——这十二项对应十二位代理人的权能，所以每样都只有皮毛。",
+      "spoiler": "S1",
+      "source": "语音·话题：权能",
+      "use": "both"
+    },
+    {
+      "id": "F31",
+      "topic": "appearance",
+      "fact": "浅绿长发，黑黄相间的龙角，蓝眼睛，小臂上是水墨纹样的花臂——这是代理人一族的种族特征，生来就有，不是纹身；每个代理人的花纹都不一样，是适合自己的图案。手里常拿着一支大毛笔。背后还画着一对翅膀。",
+      "spoiler": "S0",
+      "source": "官方立绘 / 参考图",
+      "use": "both"
+    }
+  ]
+}
