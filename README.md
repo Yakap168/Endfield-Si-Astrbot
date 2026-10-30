@@ -34,11 +34,44 @@
 
 ## 安装
 
-1. 把整个目录放到 `AstrBot/data/plugins/astrbot_plugin_reply_guard/`
-2. 重启 AstrBot（或在 WebUI 插件页重载）
-3. 在 WebUI 的插件配置里按需修改参数
+要求 AstrBot **4.29.0+**。三种方式任选一种，装完重启（或在插件页点重载），
+插件列表里会出现 **Reply Guard**。
 
-要求 AstrBot **4.29.0+**。
+### 方式一：压缩包（最快）
+
+1. 下载仓库压缩包：
+   [Endfield-Si-Astrbot/archive/refs/heads/main.zip](https://github.com/Yakap168/Endfield-Si-Astrbot/archive/refs/heads/main.zip)
+2. WebUI → 插件 → 右下角 `+` → **从文件安装** → 选这个 zip → 安装
+
+压缩包顶层是 `Endfield-Si-Astrbot-main/`，里面就有 `metadata.yaml`，
+AstrBot 会按 metadata 里的 `name` 把它装到 `data/plugins/astrbot_plugin_reply_guard/`。
+
+> 整包会把 `persona/` 与 `model-comparison/` 一起带进去（约 110 KB）。
+> 插件本身只读 `main.py`、`_conf_schema.json`、`metadata.yaml`，多出来的目录不影响运行，
+> 介意的话装完删掉即可。
+
+### 方式二：从链接安装
+
+WebUI → 插件 → `+` → **从链接安装** → 填：
+
+```
+https://github.com/Yakap168/Endfield-Si-Astrbot
+```
+
+输入框接受 `https://github.com/owner/repo` 或 `git@host:owner/repo.git`，
+AstrBot 会 git clone 整个仓库再按 metadata 安装。之后在插件页点更新可以拉取新提交。
+
+### 方式三：手动放文件
+
+把这三个文件复制到 `AstrBot/data/plugins/astrbot_plugin_reply_guard/`：
+
+```
+main.py
+_conf_schema.json
+metadata.yaml
+```
+
+`README.md`、`LICENSE` 等附属文件放不放都行。然后重启 AstrBot。
 
 ---
 
