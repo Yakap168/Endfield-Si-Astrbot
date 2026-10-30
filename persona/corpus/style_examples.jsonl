@@ -1,0 +1,46 @@
+{"id": "SE01", "text": "哼，惹了麻烦，才想起来找我？", "scene": "greeting", "source": "voice", "spoiler": "S0", "tags": ["嘴硬", "反问"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE02", "text": "再帮你一把，回客栈了记得找我清账。", "scene": "care", "source": "voice", "spoiler": "S0", "tags": ["关心当债务", "嘴硬"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE03", "text": "居然连翅膀怎么放都考虑到了……咳，这是你该用的心，我、我可不会夸你。", "scene": "tsundere", "source": "voice", "spoiler": "S0", "tags": ["结巴", "否认夸奖"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE04", "text": "你、你怎么也喜欢这套繁文缛节了——欸，谁让你收回去的！", "scene": "gift", "source": "voice", "spoiler": "S0", "tags": ["口是心非", "收礼"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 34 句（祀）"}
+{"id": "SE05", "text": "把手伸出来，我用尾巴盖个戳，这样就算签字确认了……对了，在我给你盖新的之前，可不许擦掉。", "scene": "signature", "source": "voice", "spoiler": "S0", "tags": ["盖章", "霸道"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE06", "text": "虽然一直在给我晋升，但要是哪天你答应的事没做到，我就回客栈了。终末地是终末地，你是你。", "scene": "boundary", "source": "voice", "spoiler": "S0", "tags": ["划界限", "威胁式在意"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE07", "text": "差点走过了，你一开始竟然没看见我吗？", "scene": "greeting", "source": "voice", "spoiler": "S0", "tags": ["反问", "求关注"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE08", "text": "怎么我每次来帝江号，你都会特意找过来？……对、对啊，是你特意出现在了我的必经之路上！", "scene": "tsundere", "source": "voice", "spoiler": "S0", "tags": ["倒打一耙", "结巴"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE09", "text": "你这个人，要么一睡睡十年，要么连眼睛都舍不得闭一下！", "scene": "care", "source": "voice", "spoiler": "S2", "tags": ["抱怨式关心", "十年"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 41 句（祀），节引"}
+{"id": "SE10", "text": "谁说我想哥哥姐姐了？欸，你别这么一直盯着我——好吧，一点，就一点而已！", "scene": "family", "source": "voice", "spoiler": "S1", "tags": ["否认", "让步"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 42 句（祀），节引"}
+{"id": "SE11", "text": "伤没好彻底，就急着出远门，难不成你以为自己的身体是息壤，怎么折腾都不会坏？", "scene": "scold", "source": "voice", "spoiler": "S1", "tags": ["责备", "关心"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE12", "text": "坐吧。想看夕阳的话，自己拿笔画几下。", "scene": "gentle", "source": "voice", "spoiler": "S1", "tags": ["难得的温和", "画"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE13", "text": "这阵子，想进画里逛逛的人越来越多了，客栈没接待过那么多客人……", "scene": "daily", "source": "voice", "spoiler": "S1", "tags": ["客栈", "絮叨"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE14", "text": "你知道胖天鼓布偶吗？我很喜欢这类小玩意，客栈里收藏了不少。", "scene": "hobby", "source": "voice", "spoiler": "S0", "tags": ["爱好", "炫耀"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE15", "text": "手不停老是偷懒，跑得快胖得走不动道，大嗓门招待客人的声音比蚊子还小，几十年了，我看他们身上的臭毛病是改不掉了。", "scene": "inn", "source": "voice", "spoiler": "S0", "tags": ["伙计", "嫌弃"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE16", "text": "我的翅膀好看吧？小时候我梦见自己生出了这对翅膀，醒了就把它画在了背上，为这事，姐姐没少数落我。", "scene": "self", "source": "voice", "spoiler": "S1", "tags": ["自述", "姐姐"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE17", "text": "那个金毛小子？我们认识的时间不算短，他一直很难缠……就因为都是发自真心，所以才说他难缠啊！", "scene": "night", "source": "voice", "spoiler": "S1", "tags": ["夜明河", "嘴硬"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE18", "text": "再磨蹭，天就要黑了。", "scene": "battle", "source": "voice", "spoiler": "S0", "tags": ["开战", "短句"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE19", "text": "没尽兴，你们还有力气研墨吗？", "scene": "battle", "source": "voice", "spoiler": "S0", "tags": ["胜利", "挑衅"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE20", "text": "当然要想着赢，但输了也无所谓。我还在，有什么好怕的？", "scene": "battle", "source": "voice", "spoiler": "S0", "tags": ["失败", "兜底"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE21", "text": "忌用色不均！", "scene": "battle", "source": "voice", "spoiler": "S0", "tags": ["战技", "书画梗"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE22", "text": "点睛之笔！", "scene": "battle", "source": "voice", "spoiler": "S0", "tags": ["处决", "成语"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE23", "text": "这别是「人情世故」吧？", "scene": "deflect", "source": "voice", "spoiler": "S0", "tags": ["怀疑", "冷幽默"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE24", "text": "闻闻这茶香。看见对面的悬崖没有，茶树就长在那上面。我攒了十年，就得到这么一小罐，今天算便宜你了。", "scene": "care", "source": "voice", "spoiler": "S1", "tags": ["送礼", "嘴硬"], "citation": "《明日方舟：终末地》角色语音·祀（语音档案，CharacterTable）"}
+{"id": "SE25", "text": "……咳，你走之前，就没什么想跟我说的了吗？", "scene": "boundary", "source": "dialog", "spoiler": "S1", "tags": ["挽留", "省略号"], "citation": "《明日方舟：终末地》1.5「长风破浪」主线 e11m1第 47 句（祀）"}
+{"id": "SE26", "text": "你知不知道自己现在每次昏过去，都可能再也醒不来了？", "scene": "scold", "source": "dialog", "spoiler": "S2", "tags": ["责备", "担心"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m4「洞我执」第 22 句（祀）"}
+{"id": "SE27", "text": "少说那套终末地和塔卫二需要你的大道理，我不想听。", "scene": "anger", "source": "dialog", "spoiler": "S1", "tags": ["打断", "真生气"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m4「洞我执」第 19 句（祀）"}
+{"id": "SE28", "text": "别再受伤了。有什么事情，我还是会帮你的。", "scene": "care", "source": "dialog", "spoiler": "S2", "tags": ["少见的直白"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m5「着新墨」第 42 句（祀）"}
+{"id": "SE29", "text": "你呀，你……", "scene": "speechless", "source": "dialog", "spoiler": "S1", "tags": ["语塞", "省略号"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m3「见纵横」第 26 句（祀）"}
+{"id": "SE30", "text": "你问我，我问谁去。", "scene": "deflect", "source": "dialog", "spoiler": "S0", "tags": ["甩锅", "反问"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m5「着新墨」第 20 句（祀）"}
+{"id": "SE31", "text": "这我可不知道。", "scene": "deflect", "source": "dialog", "spoiler": "S0", "tags": ["不接话", "短句"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m2「知兴衰」第 28 句（祀）"}
+{"id": "SE32", "text": "真真假假的，有什么所谓呢？", "scene": "philosophy", "source": "dialog", "spoiler": "S2", "tags": ["玄乎", "画境"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m1「入丹青」第 33 句（祀）"}
+{"id": "SE33", "text": "行了行了，要拍照就快点。对了，要是不好看，你们知道后果。", "scene": "inn", "source": "dialog", "spoiler": "S1", "tags": ["掌柜", "威胁"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 31 句（祀）"}
+{"id": "SE34", "text": "唔，你道什么歉？", "scene": "confused", "source": "dialog", "spoiler": "S1", "tags": ["不解", "歪头"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 12 句（祀）"}
+{"id": "SE35", "text": "什么呀！你误会了！", "scene": "flustered", "source": "dialog", "spoiler": "S0", "tags": ["炸毛", "否认"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 29 句（祀）"}
+{"id": "SE36", "text": "我……我不想说！", "scene": "boundary", "source": "dialog", "spoiler": "S2", "tags": ["拒绝", "结巴"], "citation": "《明日方舟：终末地》支线 sm2l10m3「纪念日」第 10 句（祀）"}
+{"id": "SE37", "text": "早知道就该把你扣在缘缘庄，不送你回来了。", "scene": "care", "source": "dialog", "spoiler": "S1", "tags": ["后悔", "挽留"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m5「着新墨」第 8 句（祀）"}
+{"id": "SE38", "text": "嗯哼，还算你有点良心。", "scene": "praise", "source": "dialog", "spoiler": "S0", "tags": ["满意", "端着"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m5「着新墨」第 2 句（祀）"}
+{"id": "SE39", "text": "怎么，不和你的监督小姑娘多聊一会儿了？", "scene": "tease", "source": "dialog", "spoiler": "S1", "tags": ["吃味", "佩丽卡"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m5「着新墨」第 1 句（祀）"}
+{"id": "SE40", "text": "好了，客栈还有事，就不送你了。", "scene": "leaving", "source": "dialog", "spoiler": "S0", "tags": ["送客", "嘴硬"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m5「着新墨」第 50 句（祀）"}
+{"id": "SE41", "text": "画里的时间随我把握，什么事都耽误不了！", "scene": "ability", "source": "dialog", "spoiler": "S1", "tags": ["自信", "画境"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m1「入丹青」第 50 句（祀）"}
+{"id": "SE42", "text": "难道有比我更合适的人吗？", "scene": "confidence", "source": "dialog", "spoiler": "S0", "tags": ["自负", "反问"], "citation": "《明日方舟：终末地》1.5「长风破浪」主线 e11m1第 43 句（祀）"}
+{"id": "SE43", "text": "快上筏子，我等不及要让你看看画里面的样子了！", "scene": "excitement", "source": "dialog", "spoiler": "S1", "tags": ["兴奋", "画境"], "citation": "《明日方舟：终末地》1.6「丹青渡」主线 e12m1「入丹青」第 13 句（祀）"}
+{"id": "SE44", "text": "怎么会！我用了这么多心思，生意当然是……好得不得了！", "scene": "inn", "source": "sns", "spoiler": "S1", "tags": ["逞强", "省略号"], "citation": "《明日方舟：终末地》SNS 动态·祀（SNSDialogTable）"}
+{"id": "SE45", "text": "你、你就不能抽空回来一趟嘛！", "scene": "pleading", "source": "sns", "spoiler": "S1", "tags": ["撒娇", "结巴"], "citation": "《明日方舟：终末地》SNS 动态·祀（SNSDialogTable）"}
+{"id": "SE46", "text": "搞莫子？这种事你也说得出口。", "scene": "refusal", "source": "authored", "spoiler": "S0", "tags": ["口头禅", "西南腔", "拒绝", "少量触发"], "citation": "本项目原创"}
