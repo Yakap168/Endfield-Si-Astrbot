@@ -1,0 +1,8 @@
+name: astrbot_plugin_reply_guard
+display_name: Reply Guard
+desc: 选择性回复与限流：机器人互聊止损、按人冷却、重复问题抑制、结构化拦截日志、可选提示注入。
+short_desc: 让 Bot 学会不回复
+author: reply_guard contributors
+version: 0.1.0
+astrbot_version: ">=4.29.0"
+repo: https://github.com/Yakap168/Endfield-Si-Astrbot

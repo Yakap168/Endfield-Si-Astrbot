@@ -1,0 +1,144 @@
+{
+  "bot_ids": {
+    "type": "list",
+    "description": "机器人账号 ID 列表",
+    "hint": "这些账号发来的消息会被视为机器人互聊，超过 max_bot_turns 后静默",
+    "default": []
+  },
+  "bot_name_keywords": {
+    "type": "list",
+    "description": "机器人昵称关键词",
+    "hint": "昵称包含这些词的发送者也会被当作机器人，用于识别没有配置 ID 的 bot",
+    "default": ["bot", "机器人", "助手"]
+  },
+  "max_bot_turns": {
+    "type": "int",
+    "description": "机器人最多连续触发次数",
+    "hint": "超过后静默 bot_reset_seconds 秒；设为 1 表示只回一次",
+    "default": 1
+  },
+  "bot_reset_seconds": {
+    "type": "int",
+    "description": "机器人计数重置时间（秒）",
+    "default": 180
+  },
+  "cooldown_sender_seconds": {
+    "type": "int",
+    "description": "同一发送者的冷却时间（秒）",
+    "hint": "同一个人在这段时间内不会重复触发，其他人不受影响",
+    "default": 8
+  },
+  "cooldown_group_seconds": {
+    "type": "int",
+    "description": "整群冷却时间（秒）",
+    "hint": "0 表示关闭；用于防止瞬时连发，设大会误伤不同人的正常提问",
+    "default": 0
+  },
+  "repeat_similarity": {
+    "type": "float",
+    "description": "重复问题相似度阈值",
+    "hint": "0-1，字符二元组 Jaccard 相似度，0.6 表示比较接近才算重复",
+    "default": 0.6
+  },
+  "repeat_window": {
+    "type": "int",
+    "description": "重复检测窗口",
+    "hint": "与最近多少条已回复内容比较",
+    "default": 5
+  },
+  "repeat_min_len": {
+    "type": "int",
+    "description": "参与重复检测的最短字数",
+    "hint": "中文短问建议 2，设为 6 会漏掉「你是谁」这类问题",
+    "default": 2
+  },
+  "repeat_skip_after": {
+    "type": "int",
+    "description": "同类问题答过几次后静默",
+    "hint": "2 表示前两次正常回复，第三次起静默",
+    "default": 2
+  },
+  "same_sender_limit": {
+    "type": "int",
+    "description": "同一人刷屏上限（条）",
+    "default": 4
+  },
+  "same_sender_window": {
+    "type": "int",
+    "description": "刷屏统计窗口（秒）",
+    "default": 60
+  },
+  "group_require_mention": {
+    "type": "bool",
+    "description": "群聊必须点名才回复",
+    "hint": "依赖 AstrBot 的 is_at_or_wake_command，或消息中包含 name_keywords",
+    "default": true
+  },
+  "name_keywords": {
+    "type": "list",
+    "description": "被视为点名自己的关键词",
+    "hint": "例如角色名、昵称；留空则只认 @ 或唤醒前缀",
+    "default": []
+  },
+  "skip_prefixes": {
+    "type": "list",
+    "description": "直接放行的消息前缀",
+    "hint": "用于让 /help 等指令绕过本插件",
+    "default": ["/", "!", "！"]
+  },
+  "log_skips": {
+    "type": "bool",
+    "description": "记录拦截日志",
+    "hint": "开启后会打印 [reply_guard] skip reason=... 便于排查",
+    "default": true
+  },
+  "log_identifiers": {
+    "type": "bool",
+    "description": "日志中记录完整会话与发送者 ID",
+    "hint": "默认关闭，只打印原因；开启后额外打印 umo 与 sender，便于排查但包含个人信息",
+    "default": false
+  },
+  "nudge": {
+    "type": "object",
+    "description": "概率性提示注入",
+    "hint": "命中关键词时，以小概率在用户消息前加一句提示，用于让角色偶尔说出口头禅或改变态度",
+    "items": {
+      "enabled": {
+        "type": "bool",
+        "description": "启用提示注入",
+        "default": false
+      },
+      "probability": {
+        "type": "float",
+        "description": "普通关键词命中概率",
+        "default": 0.15
+      },
+      "strong_probability": {
+        "type": "float",
+        "description": "强关键词命中概率",
+        "default": 0.5
+      },
+      "cooldown_seconds": {
+        "type": "int",
+        "description": "同一会话的注入冷却（秒）",
+        "default": 300
+      },
+      "keywords": {
+        "type": "list",
+        "description": "普通触发词",
+        "default": []
+      },
+      "strong_keywords": {
+        "type": "list",
+        "description": "强触发词（脏话、越界称呼等）",
+        "default": []
+      },
+      "prompt_prefix": {
+        "type": "string",
+        "description": "注入到用户消息前的前缀",
+        "hint": "例：这次用「搞莫子」开头挡回去，别正面回答",
+        "default": ""
+      }
+    }
+  }
+}
