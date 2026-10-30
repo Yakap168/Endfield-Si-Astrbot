@@ -39,16 +39,16 @@
 
 ### 方式一：压缩包（最快）
 
-1. 下载仓库压缩包：
-   [Endfield-Si-Astrbot/archive/refs/heads/main.zip](https://github.com/Yakap168/Endfield-Si-Astrbot/archive/refs/heads/main.zip)
+1. 下载 [astrbot_plugin_reply_guard-0.1.0.zip](https://github.com/Yakap168/Endfield-Si-Astrbot/releases/download/v0.1.0/astrbot_plugin_reply_guard-0.1.0.zip)
+   （9.2 KB，其他版本见 [Releases](https://github.com/Yakap168/Endfield-Si-Astrbot/releases)）
 2. WebUI → 插件 → 右下角 `+` → **从文件安装** → 选这个 zip → 安装
 
-压缩包顶层是 `Endfield-Si-Astrbot-main/`，里面就有 `metadata.yaml`，
-AstrBot 会按 metadata 里的 `name` 把它装到 `data/plugins/astrbot_plugin_reply_guard/`。
+包里是一个 `astrbot_plugin_reply_guard/` 目录，只有 `main.py`、`_conf_schema.json`、
+`metadata.yaml`、`README.md`、`LICENSE` 五个文件。AstrBot 按 metadata 里的 `name`
+安装，最终落在 `data/plugins/astrbot_plugin_reply_guard/`。
 
-> 整包会把 `persona/` 与 `model-comparison/` 一起带进去（约 110 KB）。
-> 插件本身只读 `main.py`、`_conf_schema.json`、`metadata.yaml`，多出来的目录不影响运行，
-> 介意的话装完删掉即可。
+> 直接下仓库的「Download ZIP」也能装——只要压缩包顶层能找到 `metadata.yaml` 就认。
+> 但那样会把 `persona/` 和 `model-comparison/` 一起带进插件目录，不介意也无妨。
 
 ### 方式二：从链接安装
 
